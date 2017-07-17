@@ -14,7 +14,7 @@ This repository contains a couple of simple Python scripts to help you do exactl
 Clone the repository in a folder on your computer.
 
 ```[bash]
-git clone ??
+git clone https://github.com/jerabaul29/CaptureStreaming.git
 ```
 
 ## Requirements
