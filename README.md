@@ -53,6 +53,13 @@ Fig. 1: requests issued when the streaming is started
 ![Fig. 2: getting the URL of the streaming requests](get_url.png)
 Fig. 2: getting the URL of the streaming requests
 
+Use through command line: the **StreamingDownloader/dscli.py** file gives you access to a command line interface (dscli: download straming command line interface). To see how to use, simply: ```python dscli.py -h```. An example of command (for downloading the cats video):
+
+```
+python dscli.py -p ~/ -d 120 -n CatVideo -u http://proxy-013.dc3.dailymotion.com/sec(ebb2fcb1133be20d6e82e3905cbc8d89)/frag({})/video/819/488/324884918_mp4_h264_aac_hq_1.ts
+
+```
+
 ## Warning!!
 
 Some websites may forbid you from saving the content they give access to through streaming and bind you legally to follow their Terms of Use. Do not use this code to break agains the law. You use this code under your own responsability, I will not be held responsible for bad use of this code. I guess (but I am not a lawyer) that as long as you only save streaming content that you have legitimate right to access and use the saved file for personal use only, without distributing it, and destroy it when you have watched it, you should be fairly safe. But this may depend on where you live and other factors. Be aware that content you download may include, for example, watermarking / DRM that may identify you as the downloading source if the content was further distributed.
